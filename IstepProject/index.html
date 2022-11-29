@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="glow.css">
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+  <script src="https://kit.fontawesome.com/5639007a91.js" crossorigin="anonymous"></script>  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+   
+
+  <!-- <i class="fa-solid fa-ghost"></i> -->
+
+
+<nav>
+  <ul class="logo1">
+    <li class="logo"><a target="_blank" href="https://ge.itstep.org"><span class="itstep">ITSTEP</span></a> <span class="x">X</span> <a target="_blank" href="https://www.lenovo.com/us/en/?orgRef=https%253A%252F%252Fwww.google.com%252F"><span class="lenovo">LENOVO</span></a></li>
+  </ul>
+ 
+  
+  <ul class=" items">
+    <li>  <a href="/index.html" ><button class="custom-btn btn-9"> Horror <i class="fa-solid fa-ghost"></i></button></a></li>
+    <li>  <a href="index.html"><button class="custom-btn1 btn-10"> Detective  <i class="fa-solid fa-user-secret"></i></button></a>  </li>
+    <li> <a href="/index.html" ><button class="custom-btn2 btn-1"> Romance <i class="fa-solid fa-heart"></i></button></a></li>
+    <li><a href="/index.html" ><button class="custom-btn3 btn-2"> Comedy <i class="fa-solid fa-masks-theater"></i></button></a></li>
+  </ul>
+</nav>
+
+<div class="test"></div>
+
+
+
+<section id="slider">
+    <div class="swiper FlashSwiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide"><img src="./IMGs/flashBanner.jpg" alt=""></div>
+          <div class="swiper-slide"><img src="./IMGs/FlahsBanner.png" alt=""></div>
+          <div class="swiper-slide"><img src="./IMGs/FlahsBanner.png" alt=""></div>
+          ...
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+      
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      
+        <!-- If we need scrollbar -->
+      </div>
+</section>
+
+
+
+
+<section id="search">
+    <input id="searchBox"  placeholder="Enter Movie Name..." type="text"> <button id="searchBTN">search</button>
+</section>
+
+
+
+
+<div id="movie-searchable">
+  
+</div>
+
+<!-- 
+<div class="swiper NewsSlider">
+    <div class="swiper-wrapper MoviesSlider1Wrapper">
+      <div class="swiper-slide">
+        <div class="Text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, natus! Corrupti ad nobis adipisci, incidunt qui neque vero suscipit eaque odio eveniet quod sapiente eum maiores eius enim, nulla accusamus.
+        </div>
+      </div>
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+  </div> -->
+
+
+
+<div class="swiper MovieSlider1">
+    <div class="swiper-wrapper MoviesSlider1Wrapper">
+      <div class="swiper-slide"><img src="./IMGs/idk.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="./IMGs/idk.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="./IMGs/idk.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="./IMGs/idk.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="./IMGs/idk.jpg" alt=""></div>
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+  </div>
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js"></script>
+<script src="app.js"></script>
+<script>
+    var swiper = new Swiper(".MovieSlider1", {
+        slidesPerView: 5,
+        spaceBetween: 30,
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+      });
+    var swiper2 = new Swiper(".FlashSwiper", {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+    })
+</script>
+</body>
+</html>

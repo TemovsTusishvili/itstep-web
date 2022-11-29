@@ -1,0 +1,395 @@
+@import url('https://fonts.googleapis.com/css2?family=K2D&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: "K2D";
+}
+
+a
+{
+    text-decoration: none;
+}
+
+
+
+.test
+{
+    position: absolute;
+    top: 2000px;
+    left: -504px;
+    width: 500px;
+    height: 100px;
+    background-image: url(https://news.lenovo.com/wp-content/uploads/2019/05/RS38280_LenovoLogo-POS-Red.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body
+{
+    background: #222222;
+    height: 1000vh;
+}
+
+nav
+{
+    background: rgba(26, 25, 25, 0.74);
+    display: flex;
+    justify-content: space-around;
+    position: sticky;
+    top: 0;
+    left: 0;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    width: 100%;
+    z-index: 100;
+}
+
+
+
+ul{
+    list-style: none;
+    text-decoration: none;
+} 
+
+.items li
+{
+    height: 100%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+
+.istep
+{
+    color: #686EFF;
+}
+.x
+{
+    color: #DBFF00;
+}
+.lenovo
+{
+    color: #FF0000;
+}
+
+.logo
+{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.logo .a
+{
+    text-decoration: none;
+}
+
+ .items
+{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+} 
+
+.items li
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+
+
+
+
+.swiper
+{
+    width: 90%;
+    height:fit-content;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+.swiper-slide img
+{
+    width: 100%;
+}
+
+
+#search
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+
+#search input
+{
+    border-radius: 50px;
+    width: 50%;
+    height: 40px;
+    font-family: "K2D";
+    border: none;
+    outline: none;
+    padding-left: 20px;
+    
+}
+
+.swiper {
+    margin-top: 100px;
+    width: 80%;
+    border-radius: 30px;
+    background-color: rgba(0, 0, 0, 0.39);;
+  }
+
+
+
+.MovieSlider1 .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+.MovieSlider1 .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 30px;
+  }
+
+
+  .swiper-button-next::after,
+  .swiper-button-prev::after{
+      color: rgba(255, 255, 255,0.7);
+      font-size: 35px !important;
+      font-weight: 700;
+  }
+
+
+  
+  #myImageID {
+    width: 80%;
+    filter: drop-shadow(0px 10px 3px black);
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  
+  section {
+    display: flex;
+    justify-content: space-between;
+  }
+  .sec {
+    background-color: #bbf0f3;
+    background-image: linear-gradient(315deg, #bbf0f3 0%, #f6d285 74%);
+    margin-bottom: 20px;
+  }
+  .movie-description {
+    max-width: 50%;
+    margin: 16px;
+  }
+  
+  input {
+    width: 20rem;
+    height: 3rem;
+    background: #ffffff;
+    border-radius: 3px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  
+  button {
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  
+  footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #63d471;
+    background-image: linear-gradient(315deg, #63d471 0%, #233329 74%);
+  
+    color: white;
+    text-align: center;
+  }
+  
+   #movies a {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-top: 12px;
+    margin-left: 12px;
+  }
+
+
+
+ #movie-searchable section
+ {
+    display: flex;
+    width: 100%;
+    overflow-x: auto;
+    gap: 20px;
+ } 
+
+ #movie-searchable section img
+ {
+    width: 300px;
+    border-radius: 30px;
+    transition: 0.5s all;
+ }
+
+ #movie-searchable section img:hover
+ {
+    margin-left: 0 40px;
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: 0.5s all;
+ }
+
+ .backround
+ {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.797);
+    z-index: 10000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+ }
+
+.content
+{
+    display: none;
+    z-index: 1000;
+}
+
+
+.backround-display
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-display
+{
+    display: block;
+}
+
+#content-close
+{
+    cursor: pointer;
+    color: red;
+    font-weight: bold;
+    font-size: 30px;
+
+}
+
+#search #searchBTN
+{
+    border-radius: 50%;
+    height: 50%;
+    width: 40px;
+    margin-left: 10px;
+    padding-bottom: 30px;
+    color: black;
+    padding: 5px 5px 5px 5px;
+
+}
+
+/* .................................. */
+#search #searchBTN
+ {
+    --border-width: 2px;
+    --border-radius: 22px;
+    --color-1: #f19f39;
+    --color-2: #de222c;
+    cursor: pointer;
+  }
+  
+
+#search #searchBTN
+ {
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #ddd;
+    width: 120px;
+    position: relative;
+    background: linear-gradient(to right, orange, red),
+      linear-gradient(to right, orange, red);
+    background-position: var(--border-radius) 0, var(--border-radius) 100%;
+    background-repeat: no-repeat;
+    background-size: calc(100% - var(--border-radius) - var(--border-radius))
+      var(--border-width);
+    padding: 14px 24px;
+    border-radius: var(--border-radius);
+    border: none;
+  }
+  
+  #search #searchBTN:before,#search #searchBTN:after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: var(--border-radius);
+    top: 0;
+    bottom: 0;
+  }
+  
+  #search #searchBTN:before {
+    left: 0;
+    border: var(--border-width) solid var(--color-1);
+    border-top-left-radius: var(--border-radius);
+    border-bottom-left-radius: var(--border-radius);
+    border-right-color: transparent;
+  }
+  
+  #search #searchBTN:after {
+    right: 0;
+    border: var(--border-width) solid var(--color-2);
+    border-top-right-radius: var(--border-radius);
+    border-bottom-right-radius: var(--border-radius);
+    border-left-color: transparent;
+  }
+  
+  
+
